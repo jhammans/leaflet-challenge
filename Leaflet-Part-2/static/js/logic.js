@@ -118,7 +118,7 @@ let urlMonth = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_mo
 
 // Define URLs for the tectonicplates
 // let urlPlates = "https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_plates.json";
-let urlPlates = "static/data/PB2002_plates.json";
+let urlPlates = "Leaflet-Part-2/static/data/PB2002_plates.json";
 
 // Create the layer groups for each earthquake dataset
 let hourLayer = createMarkers(urlHour);
