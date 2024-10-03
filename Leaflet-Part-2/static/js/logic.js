@@ -72,9 +72,7 @@ function createPlatesLayer(url) {
             fillOpacity: 0.
           };
         },
-        onEachFeature: function(feature, layer) {
-          // Optionally, you can bind popups or other events to the lines here
-          layer.bindPopup("Tectonic Plate: " + (feature.properties ? feature.properties.name : "Unknown"));
+         onEachFeature: function(feature) {
         }
       }).addTo(tectonicLayer); // Add GeoJSON to tectonicLayer
     });
